@@ -1,6 +1,14 @@
 ## Breakdown of a Task
 
-You can add tasks via the mobile application or website - but in all cases a task follow the rules laid out when you add tasks via the API using our standard JSON:
+You can add tasks via the mobile application or website - but in all cases a task is defined best using our standard JSON format. This is how you would add a task via our API.
+
+The building blocks of the Task JSON are:
+
+- The main task details such as name, time outs, regional information, how it gets processed and by who
+- The way in which a task will get processed using our component library
+-- Within the "processing_components" property one or more components may be defined 
+
+Here is an example:
 
 ```javascript
 {
@@ -53,3 +61,12 @@ You can add tasks via the mobile application or website - but in all cases a tas
       }
 }
 ```
+
+This examples has three components defined in the processing_components property, namely:
+- audio_file - task worker can record audio
+- tags_collection - task worker can choose from a set list of tags
+- text_area - task worker can type written text in a text field
+
+This is just a simple example of how a Task is constructed in Taskio. 
+
+You can read about [Task Processing Components here](/components.md).
