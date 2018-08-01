@@ -19,7 +19,7 @@ Here is an example:
         "lat": 0,
         "lng": 0,
         "radius": 300,
-        "task_ttl": 0, // How long the task lives before being removed, 0 means never
+        "task_ttl": 0, // How long before this task expires and is removed, 0 means never
         "user_ttl": 0, // If the task has been allocated to a user, how long do they have to process it, 0 means never
         "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
         "user_multi_process": true, // If true a single user can complete the same task multiple times
