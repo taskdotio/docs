@@ -2,11 +2,11 @@
 
 This area provides technical information to interact and develop on the Taskio platform.
 
-###API documentation
+### API documentation
 
 The latest version of our API documentation can be found here
 
-###Tasks
+### Tasks
 
 At the heart of the Taskio platform is the ability to process all types of tasks. 
 
