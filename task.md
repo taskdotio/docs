@@ -31,6 +31,7 @@ Here is an example:
           "name": "interview",
           "required": "yes",
           "extra": {
+            "instructions": "",
             "max_length": 120 // Max audio file length in seconds
           },
           {
@@ -39,6 +40,7 @@ Here is an example:
           "name": "tags",
           "required": "yes",
           "extra": {
+            "instructions": "",
             "values": [
               {"value": 1, "text": "Wow"},
               {"value": 2, "text": "Glitch"},
@@ -54,6 +56,7 @@ Here is an example:
           "name": "my_feelings",
           "required": "no",
           "extra": {
+            "instructions": "",
             "character_limit": 140
           },
          }
