@@ -16,7 +16,7 @@ You can add tasks via the mobile application or website - but in all cases a tas
         "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
         "user_multi_process": true, // If true a single user can complete the same task multiple times
         "payment_unit": 1, // The amount of points to assign to successful completion of this task
-        "task_processing_components": [
+        "processing_components": [
           {
           "component_type": "audio_file",
           "label": "Record an interview now",
