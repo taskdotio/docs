@@ -11,15 +11,17 @@ You can add tasks via the mobile application or website - but in all cases a tas
         "lat": 0,
         "lng": 0,
         "radius": 300,
-        "ttl": 0, // How long the task lives before being removed, 0 means never
+        "task_ttl": 0, // How long the task lives before being removed, 0 means never
+        "user_ttl": 0, // If the task has been allocated to a user, how long do they have to process it, 0 means never
         "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
         "user_multi_process": true, // If true a single user can complete the same task multiple times
         "payment_unit": 1, // The amount of points to assign to successful completion of this task
-        "components_attributes": [
+        "task_processing_components": [
           {
           "component_type": "audio_file",
           "label": "Record an interview now",
           "name": "interview",
+          "required": "yes",
           "extra": {
             "max_length": 120 // Max audio file length in seconds
           },
@@ -27,6 +29,7 @@ You can add tasks via the mobile application or website - but in all cases a tas
           "component_type": "tags_collection",
           "label": "Select tags",
           "name": "tags",
+          "required": "yes",
           "extra": {
             "values": [
               {"value": 1, "text": "Wow"},
@@ -41,6 +44,7 @@ You can add tasks via the mobile application or website - but in all cases a tas
           "component_type": "text_area",
           "label": "Tell us how you are feeling?",
           "name": "my_feelings",
+          "required": "no",
           "extra": {
             "character_limit": 140
           },
