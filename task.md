@@ -6,14 +6,15 @@ You can add tasks via the mobile application or website - but in all cases a tas
 {
       "task": {
         "name": "This is the main title of the task",
-        "details": "Additional details area, inserts images files, plus limitedhtml layout of content.",
-        "region_based": false, //allocate to users in a geo-location
+        "details": "Additional details of the task - inserts images, video's, audio plus limited html tags.",
+        "region_based": false, //allocate the task to users in a geo-location
         "lat": 0,
         "lng": 0,
         "radius": 300,
         "ttl": 0, // How long the task lives before being removed, 0 means never
-        "answers_count": 0, // sets number of answers per task, 0 means unlimited
-        "multi_answer": true, // If true user can complete task multiple times
+        "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
+        "user_multi_process": true, // If true a single user can complete the same task multiple times
+        "payment_unit": 1, // The amount of points to assign to successful completion of this task
         "components_attributes": [
           {
           "component_type": "audio_file",
