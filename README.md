@@ -4,7 +4,7 @@ This area provides technical information to interact and develop on the Taskio p
 
 ### API documentation
 
-The latest version of our [API documentation can be found here](https://api.task.io/docs#!/users/Api_V1_Users_show).
+The latest version of our [API documentation can be found here](https://api.task.io/docs).
 
 ### Tasks
 
