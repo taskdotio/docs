@@ -2,6 +2,7 @@
 
 You can add tasks via the mobile application or website - but in all cases a task follow the rules laid out when you add tasks via the API using our standard JSON:
 
+`
 {
       "task": {
         "name": "This is the main title of the task",
@@ -46,3 +47,4 @@ You can add tasks via the mobile application or website - but in all cases a tas
         ]
       }
 }
+`
