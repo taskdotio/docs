@@ -11,7 +11,7 @@ Example:
   "label": "Tell us how you are feeling?",
   "name": "my_feelings",
   "extra": {
-  "character_limit": 140
+    "character_limit": 140
 }
 ```
 
