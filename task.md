@@ -43,11 +43,11 @@ Here is an example:
             "extra": {
               "instructions": "",
               "values": [
-                {"value": 1, "text": "Wow"},
-                {"value": 2, "text": "Glitch"},
-                {"value": 3, "text": "Exec report"},
-                {"value": 4, "text": "Compliance issue"},
-                {"value": 5, "text": "Call back"}
+                {"id": 1, "label": "Wow"},
+                {"id": 2, "label": "Glitch"},
+                {"id": 3, "label": "Exec report"},
+                {"id": 4, "label": "Compliance issue"},
+                {"id": 5, "label": "Call back"}
               ]
             }
           },
