@@ -15,53 +15,54 @@ Here is an example:
       "task": {
         "name": "This is the main title of the task",
         "details": "Additional details of the task - inserts images, video's, audio plus limited html tags.",
-        "region_based": false, //allocate the task to users in a geo-location
+        "region_based": false,
         "lat": 0,
         "lng": 0,
         "radius": 300,
-        "task_ttl": 0, // How long before this task expires and is removed, 0 means never
-        "user_ttl": 0, // If the task has been allocated to a user, how long do they have to process it, 0 means never
-        "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
-        "user_multi_process": true, // If true a single user can complete the same task multiple times
-        "payment_unit": 1, // The amount of points to assign to successful completion of this task
+        "task_ttl": 0,
+        "user_ttl": 0,
+        "process_count": 0,
+        "user_multi_process": true,
+        "payment_unit": 1,
         "components_attributes": [
           {
-          "component_type": "audio_file",
-          "label": "Record an interview now",
-          "name": "interview",
-          "required": "yes",
-          "extra": {
-            "instructions": "",
-            "max_length": 120 // Max audio file length in seconds
+            "component_type": "audio_file",
+            "label": "Record an interview now",
+            "name": "interview",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "max_length": 120
+              }
           },
           {
-          "component_type": "tags_collection",
-          "label": "Select tags",
-          "name": "tags",
-          "required": "yes",
-          "extra": {
-            "instructions": "",
-            "values": [
-              {"id": 1, "label": "Wow"},
-              {"id": 2, "label": "Glitch"},
-              {"id": 3, "label": "Exec report"},
-              {"id": 4, "label": "Compliance issue"},
-              {"id": 5, "label": "Call back"}
-            ]
-          }
-        },
-        {
-          "component_type": "text_area",
-          "label": "Tell us how you are feeling?",
-          "name": "my_feelings",
-          "required": "no",
-          "extra": {
-            "instructions": "",
-            "character_limit": 140
+            "component_type": "tags_collection",
+            "label": "Select tags",
+            "name": "tags",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "values": [
+                {"id": 1, "label": "Wow"},
+                {"id": 2, "label": "Glitch"},
+                {"id": 3, "label": "Exec report"},
+                {"id": 4, "label": "Compliance issue"},
+                {"id": 5, "label": "Call back"}
+              ]
+            }
           },
-         }
-        ]
-      }
+          {
+            "component_type": "text_area",
+            "label": "Tell us how you are feeling?",
+            "name": "my_feelings",
+            "required": "no",
+            "extra": {
+              "instructions": "",
+              "character_limit": 140
+            }
+           }
+          ]
+        }
 }
 ```
 
