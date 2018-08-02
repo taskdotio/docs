@@ -26,42 +26,43 @@ Here is an example:
         "payment_unit": 1, // The amount of points to assign to successful completion of this task
         "components_attributes": [
           {
-          "component_type": "audio_file",
-          "label": "Record an interview now",
-          "name": "interview",
-          "required": "yes",
-          "extra": {
-            "instructions": "",
-            "max_length": 120 // Max audio file length in seconds
+            "component_type": "audio_file",
+            "label": "Record an interview now",
+            "name": "interview",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "max_length": 120 // Max audio file length in seconds
+              }
           },
           {
-          "component_type": "tags_collection",
-          "label": "Select tags",
-          "name": "tags",
-          "required": "yes",
-          "extra": {
-            "instructions": "",
-            "values": [
-              {"value": 1, "text": "Wow"},
-              {"value": 2, "text": "Glitch"},
-              {"value": 3, "text": "Exec report"},
-              {"value": 4, "text": "Compliance issue"},
-              {"value": 5, "text": "Call back"}
-            ]
-          }
-        },
-        {
-          "component_type": "text_area",
-          "label": "Tell us how you are feeling?",
-          "name": "my_feelings",
-          "required": "no",
-          "extra": {
-            "instructions": "",
-            "character_limit": 140
+            "component_type": "tags_collection",
+            "label": "Select tags",
+            "name": "tags",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "values": [
+                {"value": 1, "text": "Wow"},
+                {"value": 2, "text": "Glitch"},
+                {"value": 3, "text": "Exec report"},
+                {"value": 4, "text": "Compliance issue"},
+                {"value": 5, "text": "Call back"}
+              ]
+            }
           },
-         }
-        ]
-      }
+          {
+            "component_type": "text_area",
+            "label": "Tell us how you are feeling?",
+            "name": "my_feelings",
+            "required": "no",
+            "extra": {
+              "instructions": "",
+              "character_limit": 140
+            }
+           }
+          ]
+        }
 }
 ```
 
