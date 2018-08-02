@@ -29,11 +29,11 @@ Example:
    "extra": {
      "instructions": "", // Optional instructions to provide in addition to the label
      "values": [
-       {"value": 1, "text": "Tag 1"},
-       {"value": 2, "text": "Tag 2"},
-       {"value": 3, "text": "Tag 3"},
-       {"value": 4, "text": "Tag 4"},
-       {"value": 5, "text": "Tag 5"}
+       {"id": 1, "label": "Tag 1"},
+       {"id": 2, "label": "Tag 2"},
+       {"id": 3, "label": "Tag 3"},
+       {"id": 4, "label": "Tag 4"},
+       {"id": 5, "label": "Tag 5"}
        ]
 }
 ```
