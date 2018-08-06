@@ -25,7 +25,7 @@ Here is an example:
         "user_multi_process": true, // If true a single user can complete the same task multiple times
         "payment_unit": 1, // The amount of points to assign to successful completion of this task
         "repeat": false, // Options are: false, after_completion, daily, weekly, monthly, yearly
-        "repeat_schedule": false, // Options are: false, after_completion:seconds, daily:time, weekly:day-time, monthly:date, yearly:date
+        "repeat_schedule": null, // Options are: after_completion:seconds, daily, weekly:day1;day2.., monthly:day-number1;day-number2.., yearly:mm-dd1;mm-dd2..
         "components_attributes": [
           {
             "component_type": "audio_file",
