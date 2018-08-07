@@ -6,6 +6,10 @@ This area provides technical information to interact and develop on the Taskio p
 
 The latest version of our [API documentation can be found here](https://api.task.io/docs).
 
+### Projects
+
+Projects have a simple structure which is [defined here](/project.md).
+
 ### Tasks
 
 At the heart of the Taskio platform is the ability to process all types of tasks. 
