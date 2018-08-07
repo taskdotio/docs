@@ -16,7 +16,7 @@ Taskio project consist of:
   "tags": {  // User tagged categorisation of projects
     "tags 1": "tags 1",
     "tags 2": "tags 2"
-  }
+  },
   "publishing": private, // Display project on public task.io/account page
   "join_policy": invite // How to join the channel, options "open" (anyone can join and process tasks) or "invite" (invite only)
 }
