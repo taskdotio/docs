@@ -1,0 +1,43 @@
+{
+      "task": {
+        "name": "This is the title of the task - it is used to display major action https://go.task.io/c4n5s",
+        "details": "The new single details panel allows various tags through, but strips all else so that content always looks good.\r\nIt never allows more than a double line between text for example… And images are just displayed inline where they get added to content, full width across: https://go.task.io/t8x4x <h1>Header 1 text is like this</h1><h2>Header 1 text is like this</h2> We also allow <strong>bold text</strong>, <i>italic text</i>, and <u>underlined text</u>. Bullet lists look like this:\r\n<ul>\r\n<li>Bullet item 1</li>\r\n<li>Bullet item 2</li>\r\n</ul>\r\nNumber lists look like this:\r\n<ol>\r\n<li>Item 1</li>\r\n<li>Item 2</li>\r\n</ol>\r\nAs well as making sure images look good, we need to deal with file that get uploaded, and we need to present file meta data to allow quick loading of the right icon for the file, for example a PDF:  https://go.task.io/b0oom Below the task we then add feedback widgets that allow you to complete the task.",
+        "region_based": false,
+        "lat": 0,
+        "lng": 0,
+        "radius": 300,
+        "task_ttl": 0,
+        "user_ttl": 0,
+        "process_count": 0,
+        "user_multi_process": true,
+        "payment_unit": 1,
+        "components_attributes": [
+          {
+            "component_type": "tags_collection",
+            "label": "Select tags",
+            "name": "tags",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "values": [
+                {"value": 1, "text": "Wow"},
+                {"value": 2, "text": "Glitch"},
+                {"value": 3, "text": "Exec report"},
+                {"value": 4, "text": "Compliance issue"},
+                {"value": 5, "text": "Call back"}
+              ]
+            }
+          },
+          {
+            "component_type": "text_area",
+            "label": "Tell us how you are feeling?",
+            "name": "my_feelings",
+            "required": "no",
+            "extra": {
+              "instructions": "",
+              "character_limit": 140
+            }
+           }
+        ]
+      }
+}
