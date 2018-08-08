@@ -8,6 +8,7 @@ Taskio project consist of:
 ```javascript
 {
   "title": "Name of the project",
+  "type": parallel, // Project type, options "parallel" or "sequential" - default is "parallel"
   "start_date": 0, // Unix format (team can access the project but cannot work on tasks until date passes, 0 means no start date)
   "end_date": 0, // Unix format (team can access the project but cannot work on tasks once date passes, 0 means project never ends)
   "background_image": "", // Background header of main project page
