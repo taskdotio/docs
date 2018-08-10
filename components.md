@@ -13,7 +13,7 @@ Example:
   "required": "yes",
   "extra": {
     "instructions": "", // Optional instructions to provide in addition to the label
-    "media_types": photo // Options "photo, video, library - can list multiple such as "photo, video" if you will allow both the mobile camera to capture both photos and videos. Library means user can add media from their local library
+    "media_types": "photo", // Options "photo, video, library - can list multiple such as "photo, video" if you will allow both the mobile camera to capture both photos and videos. Library means user can add media from their local library
     "media_limit": 1 // How many media items can be added
 }
 ```
