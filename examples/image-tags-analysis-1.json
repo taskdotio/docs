@@ -1,0 +1,33 @@
+{
+      "task": {
+        "name": "https://ichef.bbci.co.uk/news/660/cpsprodpb/F759/production/_91012336_natashaewins2.jpg",
+        "details": ".",
+        "region_based": false,
+        "lat": 0,
+        "lng": 0,
+        "radius": 300,
+        "task_ttl": 0,
+        "user_ttl": 0,
+        "process_count": 0,
+        "user_multi_process": true,
+        "payment_unit": 1,
+        "components_attributes": [
+          {
+            "component_type": "tags_collection",
+            "label": "What do you see?",
+            "name": "tags",
+            "required": "yes",
+            "extra": {
+              "instructions": "",
+              "values": [
+                {"value": 1, "text": "Plastic"},
+                {"value": 2, "text": "Paper"},
+                {"value": 3, "text": "Wood"},
+                {"value": 4, "text": "Fishing nets"},
+                {"value": 5, "text": "Toxic"}
+              ]
+            }
+          }
+        ]
+      }
+}
