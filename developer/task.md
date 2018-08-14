@@ -76,3 +76,13 @@ This examples has three components defined in the processing_components property
 This is just a simple example of how a Task is constructed in Taskio. 
 
 You can read about [Task Processing Components here](/developer/components.md).
+
+### Task processing logic
+
+Whether a task is available for processing will depend on these factors, in this order:
+
+1. If task_ttl has passed, then the task is no longer available
+2. Is process_count still active? If process count was defined as integer X, then have we completed (number this task has been processed - X = 0)? Once we complete this number, the task is no longer available (remember setting process_count=0 means it never runs out)
+3. Does user_multi_process = true? If not, a single user can only process a task once
+
+
