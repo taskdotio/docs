@@ -75,4 +75,4 @@ This examples has three components defined in the processing_components property
 
 This is just a simple example of how a Task is constructed in Taskio. 
 
-You can read about [Task Processing Components here](/components.md).
+You can read about [Task Processing Components here](/developer/components.md).
