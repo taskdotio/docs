@@ -34,8 +34,8 @@ Example:
   "extra": {
     "instructions": "", // Optional instructions to provide in addition to the label - if visibity=hidden, then this will not display
     "visibility": "hidden", // Options "hidden, shown"
-    "value": 1 // Value to provide against your choswn unit
-    "unit": ""' // Examples: kg, bag, m, mm, ...
+    "value": 1, // Value to provide against your choswn unit
+    "unit": "" // Examples: kg, bag, m, mm, ...
 }
 ```
 
