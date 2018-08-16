@@ -18,6 +18,27 @@ Example:
 }
 ```
 
+### LogIt
+
+The LogIt componenent allows you to record specific values when a task is completed. Sometimes the action of completing a task is enough (if the task is to record logging a filled bag of rubbish for example).
+
+The LogIt component can be hidden or shown in the Task canvas area (Currently we only support hidden, shown is coming soon).
+
+Example:
+```javascript
+{
+  "component_type": "logit",
+  "label": "Text label to display", // If visibity=hidden, then this will not display
+  "name": "internal_name",
+  "required": "yes",
+  "extra": {
+    "instructions": "", // Optional instructions to provide in addition to the label - if visibity=hidden, then this will not display
+    "visibility": "hidden", // Options "hidden, shown"
+    "value": 1 // Value to provide against your choswn unit
+    "unit": ""' // Examples: kg, bag, m, mm, ...
+}
+```
+
 ### Text Area
 
 Example:
