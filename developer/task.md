@@ -23,7 +23,7 @@ Here is an example:
         "user_ttl": 0, // If the task has been allocated to a user, how long do they have to process it, 0 means never
         "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
         "user_multi_process": true, // If true a single user can complete the same task multiple times
-        "payment_unit": 1, // The amount of points to assign to successful completion of this task
+        "points": 1, // The amount of points to assign to successful completion of this task
         "repeat": after_completion, // Options are: after_completion, daily, weekly, monthly, yearly
         "repeat_schedule": after_completion:0, // Options are: after_completion:seconds, daily, weekly:day1;day2.., monthly:day-number1;day-number2.., yearly:mm-dd1;mm-dd2..
         "components_attributes": [
