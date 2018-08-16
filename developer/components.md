@@ -15,6 +15,7 @@ Example:
     "instructions": "", // Optional instructions to provide in addition to the label
     "media_types": "photo", // Options "photo, video, library, scan - can list multiple such as "photo, video" if you will allow both the mobile camera to capture both photos and videos. Library means user can add media from their local library. Scan lets us set a scan icon in the widget.
     "media_limit": 1 // How many media items can be added
+  }
 }
 ```
 
