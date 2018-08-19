@@ -2,7 +2,7 @@
       "task": {
         "name": "Image task demonstration",
         "show_name": false,
-        "details": "https://ichef.bbci.co.uk/news/660/cpsprodpb/F759/production/_91012336_natashaewins2.jpg",
+        "details": "https://go.task.io/k9qls",
         "region_based": false,
         "lat": 0,
         "lng": 0,
@@ -15,17 +15,20 @@
         "components_attributes": [
           {
             "component_type": "tags_collection",
-            "label": "What do you see?",
+            "label": "What primary emotion do you feel?",
             "name": "tags",
             "required": "yes",
             "extra": {
               "instructions": "",
               "values": [
-                {"value": 1, "text": "Plastic"},
-                {"value": 2, "text": "Paper"},
-                {"value": 3, "text": "Wood"},
-                {"value": 4, "text": "Fishing nets"},
-                {"value": 5, "text": "Toxic"}
+                {"value": 1, "text": "Fear"},
+                {"value": 2, "text": "Joy/happiness"},
+                {"value": 3, "text": "Anger"},
+                {"value": 4, "text": "Sadness"},
+                {"value": 5, "text": "Disgust"},
+                {"value": 6, "text": "Surprise"},
+                {"value": 7, "text": "Contempt"},
+                {"value": 8, "text": "Interest (anticipation)"}
               ]
             }
           }
