@@ -15,23 +15,23 @@
         "components_attributes": [
           {
             "component_type": "tags_collection",
-            "label": "Select tags",
+            "label": "Does this make sense?",
             "name": "tags",
             "required": "yes",
             "extra": {
-              "instructions": "",
+              "instructions": "Let us know how easy to understand the typography demonstration is - did it give you insight into how to form useful tasks?",
               "values": [
-                {"value": 1, "text": "Wow"},
-                {"value": 2, "text": "Glitch"},
-                {"value": 3, "text": "Exec report"},
-                {"value": 4, "text": "Compliance issue"},
-                {"value": 5, "text": "Call back"}
+                {"value": 1, "text": "100% clear"},
+                {"value": 2, "text": "Easy"},
+                {"value": 3, "text": "Could be better"},
+                {"value": 4, "text": "Foggy!"},
+                {"value": 5, "text": "Help!"}
               ]
             }
           },
           {
             "component_type": "text_area",
-            "label": "Tell us how you are feeling?",
+            "label": "Optional personal feedback",
             "name": "my_feelings",
             "required": "no",
             "extra": {
