@@ -14,6 +14,7 @@ Here is an example:
 {
       "task": {
         "name": "This is the main title of the task",
+        "show_name": true, // Show or hide the task name? Options are: true, false - default true
         "details": "Additional details of the task - inserts images, video's, audio plus limited html tags.",
         "region_based": false, //allocate the task to users in a geo-location
         "lat": 0,
