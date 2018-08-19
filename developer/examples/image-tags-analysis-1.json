@@ -1,7 +1,8 @@
 {
       "task": {
-        "name": "https://ichef.bbci.co.uk/news/660/cpsprodpb/F759/production/_91012336_natashaewins2.jpg",
-        "details": ".",
+        "name": "Image task demonstration",
+        "show_name": false,
+        "details": "https://ichef.bbci.co.uk/news/660/cpsprodpb/F759/production/_91012336_natashaewins2.jpg",
         "region_based": false,
         "lat": 0,
         "lng": 0,
