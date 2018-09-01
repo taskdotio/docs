@@ -1,4 +1,4 @@
-# Welcome to the Taskio technical docs
+# TASKIO technical docs
 
 This area provides technical information to interact and develop on the Taskio platform.
 
@@ -27,5 +27,6 @@ A Task can just have one processing component, or it can have multiple ones.
 
 ### Adding Tasks
 
-#### Zapier
+1. Use our API to inject tasks (documentation will be linked to here soon)
+2. Use our [Zapier integration](/developer/zapier.md) as an easy method to [add tasks from over 1000 applications](https://zapier.com/)
 
