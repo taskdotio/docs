@@ -1,4 +1,4 @@
-## Breakdown of a Task
+# Breakdown of a Task
 
 You can add tasks via the mobile application or website - but in all cases a task is defined best using our standard JSON format. This is how you would add a task via our API.
 
@@ -78,7 +78,7 @@ This is just a simple example of how a Task is constructed in Taskio.
 
 You can read about [Task Processing Components here](/developer/components.md).
 
-### Task processing logic
+## Task processing logic
 
 Whether a task is available for processing will depend on these factors, in this order:
 
