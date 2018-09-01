@@ -2,7 +2,7 @@
 
 TASKIO has a fully integrated Zapier app that allows you to add tasks from, and send processed task information to 1000+ other applications.
 
-To use the integration, please ask us for an invitiation.
+Our integration is currently invite only via this link: [https://zapier.com/developer/invite/96028/95cb9261d387cd079bdf5f0f41d8236b/](https://zapier.com/developer/invite/96028/95cb9261d387cd079bdf5f0f41d8236b/)
 
 ## Configuring Tasker Actions
 
