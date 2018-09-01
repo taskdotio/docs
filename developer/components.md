@@ -1,8 +1,8 @@
-## Task Processing Components
+# Task Processing Components
 
 Task Processing Components are the building blocks to allow you to get information back from users when they process your tasks.
 
-### Media
+## Media
 
 Example:
 ```javascript
@@ -19,7 +19,7 @@ Example:
 }
 ```
 
-### LogIt
+## LogIt
 
 The LogIt componenent allows you to record specific values when a task is completed. Sometimes the action of completing a task is enough (if the task is to record logging a filled bag of rubbish for example).
 
@@ -40,7 +40,7 @@ Example:
 }
 ```
 
-### Text Area
+## Text Area
 
 Example:
 ```javascript
@@ -55,7 +55,7 @@ Example:
 }
 ```
 
-### Tag selector
+## Tag selector
 
 Example:
 ```javascript
