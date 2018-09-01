@@ -16,14 +16,14 @@ Here is an example:
         "name": "This is the main title of the task",
         "show_name": true, // Show or hide the task name? Options are: true, false - default true
         "details": "Additional details of the task - inserts images, video's, audio plus limited html tags.",
-        "region_based": false, //allocate the task to users in a geo-location
+        "region_based": false, //allocate the task to Taskers in a geo-location
         "lat": 0,
         "lng": 0,
         "radius": 300,
-        "task_ttl": 0, // How long before this task expires and is removed, 0 means never
-        "user_ttl": 0, // If the task has been allocated to a user, how long do they have to process it, 0 means never
+        "task_ttl": 0, // How many minutes before this task expires and is removed, 0 means never.
+        "user_ttl": 0, // If the task has been allocated to a Tasker, how many seconds do they have to process it before it times out and can be allocated to another Tasker, 0 means never time it out.
         "process_count": 0, // Sets number of times a task can be processed, 0 means unlimited
-        "user_multi_process": true, // If true a single user can complete the same task multiple times
+        "user_multi_process": true, // If true a single Tasker can complete the same task multiple times
         "points": 1, // The amount of points to assign to successful completion of this task
         "repeat": after_completion, // Options are: after_completion, daily, weekly, monthly, yearly
         "repeat_schedule": after_completion:0, // Options are: after_completion:seconds, daily, weekly:day1;day2.., monthly:day-number1;day-number2.., yearly:mm-dd1;mm-dd2..
@@ -84,6 +84,6 @@ Whether a task is available for processing will depend on these factors, in this
 
 1. If task_ttl has passed, then the task is no longer available
 2. Is process_count still active? If process count was defined as integer X, then have we completed (number this task has been processed - X = 0)? Once we complete this number, the task is no longer available (remember setting process_count=0 means it never runs out)
-3. Does user_multi_process = true? If not, a single user can only process a task once
+3. Does user_multi_process = true? If not, a single Tasker can only process a task once
 
 
