@@ -31,7 +31,6 @@ Example:
   "component_type": "logit",
   "label": "Text label to display", // If visibity=hidden, then this will not display
   "name": "internal_name",
-  "required": "yes",
   "extra": {
     "instructions": "", // Optional instructions to provide in addition to the label - if visibity=hidden, then this will not display
     "visibility": "hidden", // Options "hidden, shown"
