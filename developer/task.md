@@ -65,7 +65,18 @@ Here is an example:
             }
            }
           ]
-        }
+        },
+        "meta_data": [ // Optional - leave out if you do not need it
+          {
+            "label": "Any label you want to give",
+            "value": "Any value"
+          },
+          {
+            "label": "Any second label you want to give",
+            "value": "Any second value"
+          }
+           }
+          ]
 }
 ```
 
