@@ -4,6 +4,7 @@ This provides you with a breakdown of the ways you'd typically setup tasks.
 
 ## Show title, text details (header)
 A very plain text only task. Looks like this:
+
 ![t1](https://raw.githubusercontent.com/taskdotio/docs/master/images/t1.jpg)
 
 ### JSON to create this task
