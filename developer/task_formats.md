@@ -3,7 +3,7 @@
 This provides you with a breakdown of the ways you'd typically setup tasks.
 
 ## Show title, text details (header)
-A very plain text only task. Look like this:
+A very plain text only task. Looks like this:
 
 
 ### JSON to create this task
