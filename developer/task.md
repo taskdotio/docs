@@ -16,6 +16,7 @@ Here is an example:
         "name": "This is the main title of the task",
         "show_name": true, // Show or hide the task name? Options are: true, false - default true
         "details": "Additional details of the task - inserts images, video's, audio plus limited html tags.",
+        "send_to_timeline": true // defaults to true, option false - updates project timline with the completed task
         "region_based": false, //allocate the task to Taskers in a geo-location
         "lat": 0,
         "lng": 0,
