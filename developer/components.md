@@ -75,3 +75,22 @@ Example:
 }
 ```
 
+## Picker
+
+Example:
+```
+{
+  "component_type": "picker",
+  "label": "Chose a car from below options",
+  "name": "favorite_car",
+  "required": "yes",
+  "extra": {
+    "instructions": "",
+    "options": [
+      {"value": "volvo", "text": "Volvo"},
+      {"value": "mercedes", "text": "Mercedes"},
+      {"value": "audi", "text": "Audi"}
+    ]
+  }
+}
+```
